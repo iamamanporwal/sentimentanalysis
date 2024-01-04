@@ -4,7 +4,7 @@ Problem statement : Users assessed tweets related to various brands and products
 
 Dataset Columns: tweet_text ,emotion_in_tweet_is_directed_at ,is_there_an_emotion_directed_at_a_brand_or_product.
 
-#Steps that I followed
+# Steps that I followed
 1. Cleaned data/ removed null values and special char.
 2. Tokenization of elements in tweet texts.
 3. Grouped apple/google tweets and negative/positive to boolean.
