@@ -11,6 +11,10 @@ Dataset Columns: tweet_text ,emotion_in_tweet_is_directed_at ,is_there_an_emotio
 4. As it is a classification problem, I Used Scikit learn, and logistic regression.
 5. Then exported it as a twittermodel.joblib
 6. Then I deployed this project as a flask app
+# Important Metrics
+1. f1_score(y_test, pred) -> 0.9236209335219236
+2. accuracy_score(y_test,pred) -> 0.8646616541353384
+3. pred_prob[0][1] >= 0.3 -> True
 
  ![Screenshot 2024-01-04 113607](https://github.com/iamamanporwal/sentimentanalysis/assets/74871831/09432866-2262-40e6-9524-1ee5b72888f2)
 
